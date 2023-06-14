@@ -6,9 +6,7 @@ import axios from "axios";
 
 export default function Auth() {
   const {
-    username,
     setUsername,
-    secret,
     setSecret,
   } = useContext(Context)
 
@@ -25,6 +23,18 @@ export default function Auth() {
               onChange={e => setUsername(e.target.value)}
             />
           </div>
+
+          <div className="input-container">
+            <input
+              placeholder="Password"
+              className="text-input"
+              onChange={e => setSecret(e.target.value)}
+            />
+          </div>
+
+          <button type="submit" className="submit-button">
+            Login / Signup
+          </button>
         </form>
       </div>
     </div>

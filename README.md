@@ -8,7 +8,7 @@
 
 [ONGOING]
 
-This is a Chat application built on [Almorre's Boilerplate](https://github.com/alamorre/nextjs-chat-tutorial/) using [NextJS](https://nextjs.org/) for the front-end,  [Chat Engine](https://chatengine.io/) as the backend, [Vercel](https://vercel.com/) for hosting
+This is a Chat application built on [Almorre's Boilerplate](https://github.com/alamorre/nextjs-chat-tutorial/) using [NextJS](https://nextjs.org/) for the front-end,  [Chat Engine](https://chatengine.io/) as the backend and server, [Vercel](https://vercel.com/) for hosting
 
 ## Other tools/technology and libraries used
 
