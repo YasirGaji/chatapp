@@ -22,7 +22,7 @@ This is a Chat application built on [Almorre's Boilerplate](https://github.com/a
 
 ## Errors I Faced
 
-  1. "fatal: not a git repository (or any of the parent directories): .git" - This error was caused by the fact that I had exported a CDPATH environment variable, and one of the sub-directories of a repo happens to be named same as another non-repo-subdir under one of the paths in my CDPATH, and git was trying to find the repo in the non-repo-subdir. To fix this, I had to unset the CDPATH environment variable.
+  1. 'error:03000086:digital envelope routines::initialization error' - This error was caused by the fact that I had a faulty versin of node installed - fixed it by upgrading to the latest TLS version
 
   2.
 
