@@ -12,7 +12,7 @@ This is a Chat application built on [Almorre's Boilerplate](https://github.com/a
 
 ## Other tools/technology and libraries used
 
- [Styled Component](https://styled-components.com/) - For styling |
+ [Axios](https://axios-http.com/docs/intro) - For routing (HTTP client) |
  [React Router](https://reactrouter.com/) & [React Router Dom V6](https://reactrouter.com/) - For routing
 
 ## What I Learned
