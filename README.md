@@ -8,7 +8,7 @@
 
 [ONGOING]
 
-This is a "static - website" 0.1% replica of the subscription based streaming platform service "[Netflix](https://netflix.com)" built on [React](https://reactjs.org/) for the front-end,  [Firebase](https://firebase.com/) as the backend, [fuseJS](https://fusejs.io/) for the live search integration, and [Normalize CSS](https://necolas.github.io/normalize.css/)
+This is a Chat application built on [Almorre's Boilerplate](https://github.com/alamorre/nextjs-chat-tutorial/) using [NextJS](https://nextjs.org/) for the front-end,  [Chat Engine](https://chatengine.io/) as the backend, [Vercel](https://vercel.com/) for hosting
 
 ## Other tools/technology and libraries used
 
@@ -18,7 +18,7 @@ This is a "static - website" 0.1% replica of the subscription based streaming pl
 ## What I Learned
 
   1. Project Architecture
-  2.
+  2. React Context Api
 
 ## Errors I Faced
 
