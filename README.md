@@ -13,7 +13,7 @@ This is a Chat application built on [Almorre's Boilerplate](https://github.com/a
 ## Other tools/technology and libraries used
 
  [Axios](https://axios-http.com/docs/intro) - For routing (HTTP client) |
- [React Router](https://reactrouter.com/) & [React Router Dom V6](https://reactrouter.com/) - For routing
+ [React Router](https://reactrouter.com/) &
 
 ## What I Learned
 
