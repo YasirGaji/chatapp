@@ -12,6 +12,8 @@ export default function Auth() {
     setSecret,
   } = useContext(Context);
 
+  const router = useRouter()
+
   function onSubmit(e) {
     e.preventDefault()
 
@@ -19,17 +21,17 @@ export default function Auth() {
     if (username.length === 0 || secret.length === 0) return
 
     axios.put(
-      'https://api.chatengine.io',
+      'https://api.chatengine.io/users/',
       {username, secret},
-      {headers: {"private-key": "d9bc2727-c43b-4a56-8d90-cb2f6c6c4bb9"}}
+      {headers: {"Private-key": "d9bc2727-c43b-4a56-8d90-cb2f6c6c4bb9"}}
     )
-    .then(r => Router.push('/chats'))
+    .then((r) => router.push('/chats'))
   }
 
   return (
     <div className="background">
       <div className="auth-container">
-        <form className="auth-form" onSubmit={e => e.preventDefault()}>
+        <form className="auth-form" onSubmit={(e) => onSubmit(e)}>
           <div className="auth-title">Chat App</div>
 
           <div className="input-container">
@@ -42,7 +44,7 @@ export default function Auth() {
 
           <div className="input-container">
             <input
-              placeholder="Password"
+              placeholder="password"
               className="text-input"
               onChange={e => setSecret(e.target.value)}
             />
