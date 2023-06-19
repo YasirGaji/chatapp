@@ -14,7 +14,7 @@ const MessageForSocial = dynamic(() =>
 
 export default function Chats() {
   const { username, secret } = useContext(Context);
-  const { showChat, setShowChat } = useState(false); 
+  const [ showChat, setShowChat ] = useState(false); 
   const router = useRouter();
 
   useEffect(() => {
@@ -30,7 +30,7 @@ export default function Chats() {
       <div className="shadow">
         <ChatEngine 
           height='calc(100ch - 200px)'
-          projectID='d9bc2727-c43b-4a56-8d90-cb2f6c6c4bb9'
+          projectID='c441269e-5f65-417f-b8c1-71f02b4e11e9'
           userName={username}
           userSecret={secret}
         />

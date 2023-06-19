@@ -24,7 +24,7 @@ This is a Chat application built on [Almorre's Boilerplate](https://github.com/a
 
   1. 'error:03000086:digital envelope routines::initialization error' - This error was caused by the fact that I had a faulty versin of node installed - fixed it by upgrading to the latest TLS version
 
-  2.
+  2. "TypeError: setShowChat is not a function" - Fixed this error by changing the curly braces to brackets for my useState declaration in my chat.js file
 
 ## Current Error
   
